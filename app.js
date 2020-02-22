@@ -33,9 +33,10 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(noMulti1, noMulti2) { //eslint-disable-line
     var Mutliplaction = noMulti1 * noMulti2;
-    var message = `The product of ${noMulti1} and ${noMulti2} is ${Mutliplaction}.`
-    return [Mutliplaction, message]
+    var message = `The product of ${noMulti1} and ${noMulti2} is ${Mutliplaction}.`;
+    return [Mutliplaction, message];
   }
+
   console.log(multiply(5, 9));
 
 
