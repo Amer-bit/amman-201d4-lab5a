@@ -98,7 +98,6 @@ function sumArray(sumArr) { //eslint-disable-line
 
     return[sum2,message];
 
-
 }
 console.log(sumArray());
 
